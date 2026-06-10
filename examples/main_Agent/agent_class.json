@@ -1,0 +1,85 @@
+{
+  "class_name": "MemerySystem",
+  "fields": {
+    "query": {
+      "type": "str",
+      "default": ""
+    },
+    "intent": {
+      "type": "str",
+      "default": ""
+    },
+    "sub_intent": {
+      "type": "str",
+      "default": ""
+    },
+    "need_search": {
+      "type": "str",
+      "default": "0"
+    },
+    "search_query": {
+      "type": "list",
+      "default": []
+    },
+    "time": {
+      "type": "str",
+      "default": ""
+    },
+    "number": {
+      "type": "str",
+      "default": ""
+    },
+    "holiday": {
+      "type": "str",
+      "default": ""
+    },
+    "evdences": {
+      "type": "str",
+      "default": ""
+    },
+    "evdence_extracts": {
+      "type": "list",
+      "default": []
+    },
+    "main_goal": {
+      "type": "str",
+      "default": ""
+    },
+    "success_criteria": {
+      "type": "str",
+      "default": ""
+    },
+    "brief": {
+      "type": "dict",
+      "default": {}
+    },
+    "issues": {
+      "type": "list",
+      "default": []
+    },
+    "sections": {
+      "type": "list",
+      "default": []
+    },
+    "outlines": {
+      "type": "list",
+      "default": []
+    },
+    "draft": {
+      "type": "str",
+      "default": ""
+    },
+    "criticle": {
+      "type": "str",
+      "default": ""
+    },
+    "content": {
+      "type": "list",
+      "default": []
+    },
+    "raise_error": {
+      "type": "list",
+      "default": []
+    }
+  }
+}
